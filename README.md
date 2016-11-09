@@ -45,10 +45,10 @@ Train:
 ./train.py
 </pre>
 
-<h2>Evaluating</h2>
+<h2>Link Predicting</h2>
 <pre>
 
-./eval.py --eval_train --checkpoint_dir="./runs/1451237919/checkpoints/"
+./link_prediction.py --checkpoint_dir="./runs/1451237919/checkpoints/"
 </pre>
 
 Replace the checkpoint dir with the output from the training. To use your own data, change the eval.py script to load your data.
