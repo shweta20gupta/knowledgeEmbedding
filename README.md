@@ -1,5 +1,5 @@
 
-This code belongs to the implementation of <a href = "http://jmlr.org/proceedings/papers/v48/trouillon16.pdf">"Complex Embeddings for Simple Link Prediction"</a> paper.
+This code belongs to the implementation of <a href = "http://jmlr.org/proceedings/papers/v48/trouillon16.pdf">Complex Embeddings for Simple Link Prediction</a> paper.
 
 <h2>Requirements</h2>
 
@@ -58,5 +58,5 @@ Train:
 ./link_prediction.py --checkpoint_dir="./runs/1451237919/checkpoints/"
 </pre>
 
-Replace the checkpoint dir with the output from the training. To use your own data, change the eval.py script to load your data.
+Replace the checkpoint dir with the output from the training. To use your own data, change the link_prediction.py script to load your data.
 
